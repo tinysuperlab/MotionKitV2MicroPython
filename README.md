@@ -1,11 +1,11 @@
 # maqueen
 micro:bit python library for the DFRobot Maqueen
 
-To make some summmer holiday fun for a small group of kids with a few Maqueen robots.
+This code was made to have some summmer holiday fun for a small group of kids with a Maqueen robots.
 We needed a simple microbit interface for programming with python.
 And we needed it to run offline on linux, windows and mac.
 
-The interface is implemented in 
+The interface library is implemented in 
 - maqueen.py
 
 It supports:
@@ -16,7 +16,7 @@ It supports:
 - ultrasound measurement in cm.
 - line sensors
 
-Please see the example py files to learn how each function is used.
+Please try the example files to learn how each function is used.
 
 - robot_frontlights.py
 - robot_sidelights.py
@@ -28,10 +28,10 @@ Please see the example py files to learn how each function is used.
 The Mu editor was used for coding.
 All the files are copied to the mu_code folder.
 maqueen.py is copied to the micro:bit.
-One way to do is tobe copied use the Mu editor "Files" button.
+One way to copy is to use the Mu editor "Files" button and drag the file to "your device".
 Each example py file is programmed using the "Flash" button.
 
-robot_servo.py requires an external servo motor such as SG90.
+robot_servo.py requires one or two external servo motor(s) such as SG90.
 robot_measuredistance.py requires that the ultra sound sensor is mounted.
 
 class Maqueen contains following methods:
@@ -82,8 +82,9 @@ class Maqueen contains following methods:
     # Trigger (P1), Echo (P2)
     def ultrasound_measure(self): 
     
-Create a single instane of the Maqueen class and call the member functions.
+Import the library and create a single instane of the Maqueen class and call the member functions.
 
+    from maqueen import Maqueen
     robot = Maqueen()
     robot.led_right(1)
     

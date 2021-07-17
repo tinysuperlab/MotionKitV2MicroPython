@@ -14,17 +14,24 @@ It supports:
 - red leds
 - RGB leds
 - ultrasound measurement in cm.
+- line sensors
 
 Please see the example py files to learn how each function is used.
 
-- robot_motor.py
-- robot_led.py
-- robot_rgb.py
-- robot_ultrasound.py
-- robot_servos.py
+- robot_frontlights.py
+- robot_sidelights.py
+- robot_motors.py
+- robot_measuredistance.py
+- robot_linesensors.py
+- robot_servo.py
 
 The Mu editor was used for coding.
-The maqueen.py was copied from the Mu folder to the micro:bit using the editor Files menu item.
-The example py files was programmed using the Flash menu item.
+All the files are copied to the mu_code folder.
+maqueen.py is copied to the micro:bit.
+One way to do is tobe copied use the Mu editor "Files" button.
+Each example py file is programmed using the "Flash" button.
 
-Have fun!
+robot_servo.py requires an external servo motor such as SG90.
+robot_measuredistance.py requires that the ultra sound sensor is mounted.
+
+If you have a Maqueen robot and can use this code. Have fun!

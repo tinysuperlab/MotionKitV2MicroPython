@@ -25,14 +25,23 @@ Please try the example files to learn how each function is used.
 - robot_linesensors.py
 - robot_servo.py
 
+get the source with git
+
+    git clone https://github.com/kholm777/maqueen
+
+
 The Mu editor was used for coding.
 All the files are copied to the mu_code folder.
 maqueen.py is copied to the micro:bit.
 One way to copy is to use the Mu editor "Files" button and drag the file to "your device".
 Each example py file is programmed using the "Flash" button.
 
+On the mac i had some problems flashing the software using Mu 1.1.0 beta 5. 
+A workaround is to use the editor Thonny instead.
+
 robot_servo.py requires one or two external servo motor(s) such as SG90.
 robot_measuredistance.py requires that the ultra sound sensor is mounted.
+
 
 class Maqueen contains following methods:
 

@@ -1,7 +1,7 @@
 # maqueen
 micro:bit python library for the DFRobot Maqueen
 
-This code was made to have some summmer holiday fun for a small group of kids with a Maqueen robots.
+This code was made to have some summmer holiday fun for a small group of kids with some Maqueen robots.
 We needed a simple microbit interface for programming with python.
 And we needed it to run offline on linux, windows and mac.
 

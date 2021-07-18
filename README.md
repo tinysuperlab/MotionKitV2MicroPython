@@ -88,7 +88,7 @@ class Maqueen contains following methods:
     # angle: {0-180}
     def servo_two(self, angle=0)
     
-    # Trigger (P1), Echo (P2)
+    # return: distance in cm
     def ultrasound_measure(self)
     
 Import the library and create a single instane of the Maqueen class and call the member functions.

@@ -113,7 +113,7 @@ class Maqueen:
         buf[1] = angle
         i2c.write(0x10, buf)
 
-    # Trigger (P1)(P16), Echo (P2)
+    # return: distance in cm
     def ultrasound_measure(self):
         pin1.write_digital(1)
         utime.sleep_us(10)

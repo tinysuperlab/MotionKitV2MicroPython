@@ -20,11 +20,11 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from maqueen import Maqueen
-from microbit import *
+from motionkit import MotionKit
+from calliopemini import *
 import utime
 
-robot = Maqueen()
+robot = MotionKit()
 
 v0 = Image(
     "00000:"

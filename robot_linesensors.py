@@ -20,9 +20,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from maqueen import Maqueen
-from microbit import *
-robot = Maqueen()
+from motionkit import MotionKit
+from calliopemini import *
+robot = MotionKit()
 
 while True:
     left = robot.line_left()

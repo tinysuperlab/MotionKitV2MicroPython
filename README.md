@@ -25,7 +25,7 @@ robot_servo.py requires one or two external servo motor(s) such as SG90.
 robot_measuredistance.py requires that the ultra sound sensor is mounted.
 
 
-class Maqueen contains following methods:
+class MotionKit contains following methods:
 
     # value: 0,1
     def led_right(self, value):
@@ -73,10 +73,10 @@ class Maqueen contains following methods:
     # return: distance in cm
     def ultrasound_measure(self)
     
-Import the library and create a single instane of the Maqueen class and call the member functions.
+Import the library and create a single instane of the MotionKit class and call the member functions.
 
-    from maqueen import Maqueen
-    robot = Maqueen()
+    from motionkit import MotionKit
+    robot = MotionKit()
     robot.led_right(1)
     
-If you have a Maqueen robot and want to make use this code. Have fun!    
+If you have a MotionKit robot and want to make use this code. Have fun!    

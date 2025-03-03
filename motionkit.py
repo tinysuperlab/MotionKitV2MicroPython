@@ -24,7 +24,7 @@ from calliopemini import *
 import neopixel
 import utime
 
-class Maqueen:
+class MotionKit:
 
     def __init__(self):
         i2c.init()
@@ -141,7 +141,7 @@ class Maqueen:
         d = x / 58
         return int(d)
 
-# robot = Maqueen()
+# robot = MotionKit()
 
 
 

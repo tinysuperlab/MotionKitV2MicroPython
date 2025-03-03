@@ -2,7 +2,7 @@
 Calliope mini python library for the DFRobot/TinySuperlab MotionKit V2.
 
 The interface library is implemented in 
-- maqueen.py
+- motionkit.py
 
 It supports:
 - motors

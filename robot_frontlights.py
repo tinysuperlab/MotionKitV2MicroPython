@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 from maqueen import Maqueen
-from microbit import *
+from calliopemini import *
 import utime
 
 robot = Maqueen()
